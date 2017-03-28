@@ -1,0 +1,188 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Experiment id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ParaLab/ParaLab%2C%20Version%3D1.2.2223.22769%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<experimentType>Emulation</experimentType>
+<name id="ref-3">Experiment 1</name>
+<time>0001-01-01T00:00:00.0000000+03:00</time>
+<isChanged>true</isChanged>
+<task href="#ref-4"/>
+<clusterTaskId>-1</clusterTaskId>
+<calcSystem href="#ref-5"/>
+</a1:Experiment>
+<a1:TapeMatrixMultTask id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ParaLab/ParaLab%2C%20Version%3D1.2.2223.22769%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<matrixResult href="#ref-7"/>
+<dataSize>4</dataSize>
+<stepsInTravelMax>30</stepsInTravelMax>
+<stepsInTravel>0</stepsInTravel>
+<storeBackground xsi:null="1"/>
+<MatrixMultTask_x002B_dataSize>4</MatrixMultTask_x002B_dataSize>
+<MatrixMultTask_x002B_stepsInTravelMax>30</MatrixMultTask_x002B_stepsInTravelMax>
+<MatrixMultTask_x002B_stepsInTravel>0</MatrixMultTask_x002B_stepsInTravel>
+<MatrixMultTask_x002B_storeBackground xsi:null="1"/>
+<Task_x002B_isCanDrawDataStateComputer>true</Task_x002B_isCanDrawDataStateComputer>
+<Task_x002B_isTaskAndTopologyCompatible>true</Task_x002B_isTaskAndTopologyCompatible>
+<Task_x002B_iterationsPictures href="#ref-8"/>
+<Task_x002B_dataSendingVisualizationType>PacketSending</Task_x002B_dataSendingVisualizationType>
+<Task_x002B_minNumData>100</Task_x002B_minNumData>
+<Task_x002B_maxNumData>5000</Task_x002B_maxNumData>
+<Task_x002B_numData>100</Task_x002B_numData>
+<Task_x002B_dataSize>4</Task_x002B_dataSize>
+<Task_x002B_iteration>0</Task_x002B_iteration>
+<Task_x002B_timeSending>75</Task_x002B_timeSending>
+<Task_x002B_timeDelay>1000</Task_x002B_timeDelay>
+<Task_x002B_stepsInTravelMax>30</Task_x002B_stepsInTravelMax>
+<Task_x002B_stepsInTravel>0</Task_x002B_stepsInTravel>
+<Task_x002B_isCompleted>false</Task_x002B_isCompleted>
+<Task_x002B_storeBackground xsi:null="1"/>
+<Task_x002B_selectedColor>
+<name xsi:null="1"/>
+<value>4294945330</value>
+<knownColor>0</knownColor>
+<state>2</state>
+</Task_x002B_selectedColor>
+<Task_x002B_topology href="#ref-9"/>
+<Task_x002B_calculatingSystem href="#ref-5"/>
+<Task_x002B_sendingPairs xsi:null="1"/>
+<Task_x002B_currentCalcTime>0</Task_x002B_currentCalcTime>
+<Task_x002B_currentNetworkTime>0</Task_x002B_currentNetworkTime>
+</a1:TapeMatrixMultTask>
+<a1:CalculatingSystem id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ParaLab/ParaLab%2C%20Version%3D1.2.2223.22769%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cpuPower>500</cpuPower>
+<dataTransferMethod>Message</dataTransferMethod>
+<packetHeaderSize>10</packetHeaderSize>
+<packetFullSize>500</packetFullSize>
+<networkLatency>10</networkLatency>
+<networkBandwidth>100</networkBandwidth>
+</a1:CalculatingSystem>
+<SOAP-ENC:Array id="ref-7" SOAP-ENC:arrayType="xsd:boolean[5,5]">
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+</SOAP-ENC:Array>
+<a4:ArrayList id="ref-8" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-10"/>
+<_size>5</_size>
+<_version>5</_version>
+</a4:ArrayList>
+<a1:RingTopology id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ParaLab/ParaLab%2C%20Version%3D1.2.2223.22769%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<isNeedRefreshPoints>true</isNeedRefreshPoints>
+<computerCounts href="#ref-11"/>
+<points href="#ref-12"/>
+<RingFarmTopology_x002B_isNeedRefreshPoints>true</RingFarmTopology_x002B_isNeedRefreshPoints>
+<RingFarmTopology_x002B_computerCounts href="#ref-11"/>
+<RingFarmTopology_x002B_points href="#ref-12"/>
+<Topology_x002B_canManualSelectProcCount>true</Topology_x002B_canManualSelectProcCount>
+<Topology_x002B_isNeedRefreshPoints>true</Topology_x002B_isNeedRefreshPoints>
+<Topology_x002B_computerCounts href="#ref-11"/>
+<Topology_x002B_numComputers>5</Topology_x002B_numComputers>
+<Topology_x002B_selectedComputerNum>0</Topology_x002B_selectedComputerNum>
+<Topology_x002B_points href="#ref-12"/>
+</a1:RingTopology>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="xsd:int[4]">
+<item>2</item>
+<item>5</item>
+<item>8</item>
+<item>16</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-12" SOAP-ENC:arrayType="a3:Point[5]" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<item>
+<x>375</x>
+<y>232</y>
+</item>
+<item>
+<x>278</x>
+<y>365</y>
+</item>
+<item>
+<x>122</x>
+<y>314</y>
+</item>
+<item>
+<x>122</x>
+<y>150</y>
+</item>
+<item>
+<x>278</x>
+<y>99</y>
+</item>
+</SOAP-ENC:Array>
+<a4:ArrayList id="ref-13" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-18"/>
+<_size>0</_size>
+<_version>0</_version>
+</a4:ArrayList>
+<a4:ArrayList id="ref-14" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-18"/>
+<_size>0</_size>
+<_version>0</_version>
+</a4:ArrayList>
+<a4:ArrayList id="ref-15" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-18"/>
+<_size>0</_size>
+<_version>0</_version>
+</a4:ArrayList>
+<a4:ArrayList id="ref-16" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-18"/>
+<_size>0</_size>
+<_version>0</_version>
+</a4:ArrayList>
+<a4:ArrayList id="ref-17" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-18"/>
+<_size>0</_size>
+<_version>0</_version>
+</a4:ArrayList>
+<SOAP-ENC:Array id="ref-18" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
