@@ -1,0 +1,10 @@
+﻿  MpiFirst.cpp
+MpiFirst.cpp(8): warning C4101: Status: неиспользованная локальная переменная
+MpiFirst.cpp(15): warning C4101: myid: неиспользованная локальная переменная
+MpiFirst.cpp(10): warning C4101: RecvRank: неиспользованная локальная переменная
+MpiFirst.cpp(15): warning C4101: numprocs: неиспользованная локальная переменная
+  Создание кода
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  MpiFirst.vcxproj -> D:\Методы Паралельной Обработки\SingleComputing\2lab\MpiFirst\Release\MpiFirst.exe
+  MpiFirst.vcxproj -> D:\Методы Паралельной Обработки\SingleComputing\2lab\MpiFirst\Release\MpiFirst.pdb (Full PDB)
