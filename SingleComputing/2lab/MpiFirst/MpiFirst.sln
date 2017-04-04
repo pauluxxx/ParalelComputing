@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MpiFirst", "MpiFirst\MpiFirst.vcxproj", "{B59596CD-E2E8-4620-96F9-476EC51FA763}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MPISecond", "MPISecond\MPISecond.vcxproj", "{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{B59596CD-E2E8-4620-96F9-476EC51FA763}.Release|x64.Build.0 = Release|x64
 		{B59596CD-E2E8-4620-96F9-476EC51FA763}.Release|x86.ActiveCfg = Release|Win32
 		{B59596CD-E2E8-4620-96F9-476EC51FA763}.Release|x86.Build.0 = Release|Win32
+		{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}.Debug|x64.ActiveCfg = Debug|x64
+		{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}.Debug|x64.Build.0 = Debug|x64
+		{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}.Debug|x86.ActiveCfg = Debug|Win32
+		{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}.Debug|x86.Build.0 = Debug|Win32
+		{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}.Release|x64.ActiveCfg = Release|x64
+		{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}.Release|x64.Build.0 = Release|x64
+		{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}.Release|x86.ActiveCfg = Release|Win32
+		{8AEFDD49-EEA7-40F5-95FF-AB7ECE705C7A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

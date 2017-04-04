@@ -1,4 +1,5 @@
 ﻿  stdafx.cpp
   MpiFirst.cpp
-LINK : fatal error LNK1104: не удается открыть файл "mpi.lib"
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): error MSB6006: "link.exe" завершилась с кодом 1104.
+d:\методы паралельной обработки\singlecomputing\2lab\mpifirst\mpifirst\mpifirst.cpp(8): warning C4101: Status: неиспользованная локальная переменная
+  MpiFirst.vcxproj -> D:\Методы Паралельной Обработки\SingleComputing\2lab\MpiFirst\Debug\MpiFirst.exe
+  MpiFirst.vcxproj -> D:\Методы Паралельной Обработки\SingleComputing\2lab\MpiFirst\Debug\MpiFirst.pdb (Full PDB)
