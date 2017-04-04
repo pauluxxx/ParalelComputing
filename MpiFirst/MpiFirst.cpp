@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
  	fprintf(stdout, "Process %d of %d\n", ProcRank, ProcNum);
 	MPI_Finalize();
 	return 0;
-	/*
+	/*s
 	int myid;
 	int numprocs;
 	char message[30];
