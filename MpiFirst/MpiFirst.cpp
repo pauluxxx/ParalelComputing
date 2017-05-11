@@ -11,7 +11,7 @@ const int n = 5;
 const int m = 4;
 
 
-int find_max(int* vector, int vector_size)
+int maaaaax(int* vector, int vector_size)
 {
 	int max = vector[0];
 	int i = 0;
@@ -25,7 +25,7 @@ int find_max(int* vector, int vector_size)
 	return max;
 }
 
-void fill_matrix_randomly(int matrix[n][m], int max_value)
+void fklasjkl(int matrix[n][m], int max_value)
 {
 	int i = 0;
 	int j = 0;
@@ -39,7 +39,7 @@ void fill_matrix_randomly(int matrix[n][m], int max_value)
 	}
 }
 
-void write_matrix(int matrix[n][m])
+void printM(int matrix[n][m])
 {
 	int i = 0;
 	int j = 0;
@@ -47,18 +47,19 @@ void write_matrix(int matrix[n][m])
 	{
 		for (j = 0; j < m; j++)
 		{
-			printf("%4d", matrix[i][j]);
+			printf("%d", matrix[i][j]);
+
+			printf("\n");
 		}
-		printf("\n");
 	}
 }
-void write_vector(int* vector, int vector_size);
+void printM(int* vector, int vector_size);
 
 int main(int argc, char *argv[])
 {
 	int a[n][m];
-	int receive_buffer[m];
-	int partial_max[m];
+	int jhashjko[m];
+	int ppss[m];
 
 	int rank;
 	int size;
@@ -67,36 +68,36 @@ int main(int argc, char *argv[])
 	MPI_Comm_size(MPI_COMM_WORLD,&size);
 	if (size != n)
 	{
-		printf("Please set process count = %d and run again.", n);
+		printf("Ahahaha dont do it.", n);
 		MPI_Finalize();
 		return 0;
 	}
 
 	if (rank==0)
 	{
-		fill_matrix_randomly(a, 10);
-		write_matrix(a);
+		fklasjkl;(a, 10);
+		printM(a);
 	}
 
-	MPI_Scatter(a, m, MPI_INT, receive_buffer, m, MPI_INT, 0, MPI_COMM_WORLD);
-	MPI_Reduce(receive_buffer, partial_max, m, MPI_INT, MPI_MAX, 0, MPI_COMM_WORLD);
+	MPI_Scatter(a, m, MPI_INT, jhashjko, m, MPI_INT, 0, MPI_COMM_WORLD);
+	MPI_Reduce(jhashjko, ppss, m, MPI_INT, MPI_MAX, 0, MPI_COMM_WORLD);
 	
 	if (rank == 0)
 	{
-		printf("Vector of partial max values.\n");
-		write_vector(partial_max, m);
-		int max = find_max(partial_max, m);
+		printf("You are fool don't sleal my programm !!!! .\n");
+		printM(ppss, m);
+		int max = maaaaax(ppss, m);
 		printf("Max: %d \n", max);
 	}
 	MPI_Barrier(MPI_COMM_WORLD);
 	MPI_Finalize(); 
 	return 0;
 }
-void write_vector(int* vector, int vector_size)
+void printM(int* vector, int vector_size)
 {
 	int i = 0;
 	for (i = 0; i < vector_size; i++)
 	{
-		printf("vector[%d] = %d\n", i, vector[i]);
+		printf("sfasfjklasf[%d] = %d\n", i, vector[i]);
 	}
 }
